@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sory traroé-developpeur web</title>
+        <link rel="stylesheet" href="sty.css">
+    </head>
+    <body>
+        <header>
+            <h1>Sory traroé</h1>
+        </header>
+            <div class="menud" >
+                <button class="bmenu" onclick="mobile_menu()">
+                   <span></span><span></span><span></span> Menu
+                </button>
+                <ul class="ul"> 
+                    <li><a href ="index.html" class="mb">Accueil</li>
+                    <li><a href="services.html" class="mb">Mes Services</a></li>
+                    <li ><a href="connaissance.html"class="mb">Mes Compétences</a></li>
+                    <li><a href ="contact.html" class="mb">Me ontacter?</a></li>
+                    <li><a href ="projet.html" class="mb">Mes Expériences</a></li>
+                    <li><a href ="about.html" class="mb">A propos de moi</a> </li>
+                  
+                </ul>
+            </div>
+            <div class="div">
+                <p class="cc"> <a href ="index.html">accueil</a> </p>
+                <p class="cc"> <a href ="contact.html">contact</a> </p>
+                <p class="cc"> <a href ="projet.html">experience</a> </p>
+                <p class="cc"> <a href ="connaissance.html">compétences</a> </p>
+                <p class="cc"> <a href ="about.html">a propos</a> </p>
+                <p class="cc"><a href="services.html">services</a></p>
+            </div> 
+        </nav>
+        <section id="sect">
+            <p style="width: 70%;">
+                Après la terminale TSE aujourd'hui j'etudie le genie logiciel à la FST <br> Je connais du HTML,CSS,JS ,REACT et maintenant j'étudie NODE,PYTHON et SQL
+             </p>
+            <p>
+                <strong>POURQUIOI M'INTERESSER AU DEVELOPPEMENT</strong>
+            </p>
+            <p style="width: 70%;">
+                <b>En premier lieu </b>j'etais juste curieux , je voulais savoir ce qui se cache derrièrre le fonctionnement d'un site <br><b>En second  lieu</b> j'ai vu l'utilité du web dans notre société, en effet avoir un site professionel un gros plus pour n'importe quelle entreprise ou entrepreneur (magazin, restaurant, hôtel,salon de coiffure ou de maquillage ...) <br> <b>CERTAINS AVANTAGES </b>
+                <ul>
+                    <li>se demarquer dans la concurrence</li>
+                    <li>plus de visibilités</li>
+                    <li>plus de proffesionalisme ,inspire plus confiance, plus de chance d'attirer et fideliser de la clientelle</li>
+                </ul> Et bien plus encore (contactez moi pour plus de detail)
+             </p>  
+        </section>
+        <footer>
+            Sory 2025 <br>Disponible pour des projets freelance ou des collaborations 
+         </footer>
+         <script>
+             function mobile_menu ()  {
+            document.querySelector(".ul").classList.toggle("ull");
+            document.querySelector("header").classList.toggle("uld");
+                };
+         </script>
+    </body>
+</html>
