@@ -8,7 +8,6 @@ Le site est responsive et adapté aux téléphones et ordinateurs.
 - HTML5
 - CSS3
 - JavaScript
-- React
 ## Fonctionnalités
 
 - Présentation personnelle
